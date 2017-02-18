@@ -29,7 +29,7 @@ public class QBR_calculator {
 		if (b < 0)
 			b = 0;
 		double QBR = ((a+b+c+d)/6)*100;
-		System.out.printf("%.1f", QBR);
+		System.out.printf("Player's QB rating is: %.1f", QBR);
 	}
 
 }
